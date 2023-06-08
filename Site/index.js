@@ -11,11 +11,11 @@ function retrofy() {
                     <button onclick="fechar_modal()" class="botao_fechar">X</button>
                 </div>
                 <h1>Retrofy</h1>
-                <p class="modal-p">A Retrofy é um projeto feito para representar quem eu sou. Sendo assim,
-                   desenvolvi um site que conta um pouco sobre a história da música durante
-                   os anos 60, 70 e 80, que te dá recomendações de músicas da época escolhida
-                   e também um Quiz para testar o seu conhecimento acerca das músicas dos 
-                   períodos citados.<br></p>
+                <p class="modal-p">Retrofy is a project made to represent who I am. Therefore,
+                I developed a website that tells a little about the history of music during
+                the 60s, 70s and 80s, which gives you music recommendations from the chosen era
+                and also a Quiz to test your knowledge about the songs of the
+                cited periods.<br></p>
                    <div class="tecno">
                    <img src="imgs/html-5.png" alt="" width="35px">
                   <img src="imgs/css-3.png" alt=""width="35px">
@@ -23,10 +23,10 @@ function retrofy() {
                   <img src="imgs/mysql.png" alt="" width="35px">
                   </div><br>
 
-                   <span>Conheça a Retrofy clicando aqui:</span>
+                   <span>Learn more about Retrofy:</span>
                     <br><br>
                     <a href="https://github.com/nayrabelarmino/Retrofy" target="_blank">
-                   <button class="button-retrofy" onclick="retrofySite()">Conhecer</button> </a>
+                   <button class="button-retrofy" onclick="retrofySite()">Learn more</button> </a>
             </div>
         </div>
     </div>
@@ -42,11 +42,11 @@ function hoptech() {
                     <button onclick="fechar_modal()" class="botao_fechar">X</button>
                 </div>
                 <h1>HopTech</h1>
-                <p class="modal-p">O projeto HopTech surgiu com a iniciativa da organização NextPoint, 
-                e é um projeto que tem como principal objetivo desenvolver soluções simples e 
-                efetivas para problemas no plantio de lúpulo.
-                O objetivo é auxiliar no controle das plantações por meio de um sistema de 
-                monitoramento utilizando sensores e dashboards para coleta e análise de dados.<br></p>
+                <p class="modal-p">The HopTech project came about with the initiative of the organization NextPoint,
+                and it is a project whose main objective is to develop simple and
+                effective for problems in hop planting.
+                The objective is to help control plantations through a system of
+                monitoring using sensors and dashboards for data collection and analysis.<br></p>
                 <div class="tecno">
                 <img src="imgs/html-5.png" alt="" width="35px">
                <img src="imgs/css-3.png" alt=""width="35px">
@@ -54,10 +54,10 @@ function hoptech() {
                <img src="imgs/mysql.png" alt="" width="35px">
                </div><br>
 
-                <span>Conheça a HopTech clicando aqui:</span>
+                <span>Learn more about HopTech:</span>
                 <br><br>
                 <a href="https://github.com/nextpointbr/HopTech" target="_blank">
-                <button class="button-retrofy" onclick="hoptechSite()">Conhecer</button></a>
+                <button class="button-retrofy" onclick="hoptechSite()">Learn more</button></a>
             </div>
         </div>
     </div>
