@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 html {
     scroll-padding-top: 12.5vh;
@@ -112,13 +113,15 @@ body{
 
 .txtInicio p{
     color: white;
+    margin-top: -30px;
 }
 
 .titulo_principal {
     color: #D0ADDC;
-    font-size: 45px;
+    font-size: 50px;
     margin-top: 80px;
     font-weight: 900;
+    font-family: "Righteous";
 }
 
 #aboutMe {
@@ -141,7 +144,7 @@ body{
     height: 50%;
     border-radius: 20px;
     margin-top: 10%;
-    margin-left: 23%;
+    margin-left: 21%;
     padding: 35px;
     display: flex;
     gap: 50px;
@@ -176,6 +179,112 @@ p {
     cursor: pointer;
 }
 
+#projects {
+    height: 100vh;
+    position: relative;
+    background-image: url(imgs/projects.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    background-size:cover;
+}
+
+.div-full {
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    height: 400px;
+    width: 55%;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 280px;
+}
+
+.titulo-projects {
+    text-align: center;
+    color: #E5B8F4;
+    font-size: 35px;
+    font-family: 'Righteous';
+    font-weight: 600;
+}
+
+.div-projects {
+    z-index: 999;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.projetos {
+    text-align: center;
+    border: 2px solid #C00FFA;
+    background-color: rgba(255, 255, 255, 0.267);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.projetos img {
+    border-radius: 20px;
+    cursor: pointer;
+    border: 1px solid #C00FFA;
+}
+
+.projetos img:hover {
+    background: #ae00af;
+    background: linear-gradient(to top right, #ae00af, #001eff);
+    color: #bfbfbf;
+    box-shadow: 0 8px 50px #c300ffad;
+    transition: 0.1s;
+}
+
+#contact{
+    height: 100vh;
+    position: relative;
+    background-image: url(imgs/contact2.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    background-size:cover;
+    color: white;
+}
+
+.box-contatos {
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    height: 400px;
+    width: 40%;
+    padding: 10px 40px;
+    border-radius: 20px;
+    margin-left: 350px;
+    border: 2px solid #C00FFA;
+    background-color: rgba(255, 255, 255, 0.267);
+}
+
+.contact-title {
+    text-align: flex-start;
+    color: #E5B8F4;
+    font-size: 40px;
+    font-family: 'Righteous';
+    font-weight: 600;
+}
+
+.data {
+    background-color: #D0ADDC;
+    margin-bottom: 40px;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 525px;
+    cursor: pointer;
+}
+
+.data:hover {
+    box-shadow: 0 8px 50px #c300ffad;
+    transition: 0.1s;
+}
 
 footer {
     display: flex;
@@ -187,7 +296,6 @@ footer {
     gap: 6vw;
     background-color: #3B2F57;
     color: white;
-
 }
 
 .redes {
@@ -204,4 +312,107 @@ footer {
 .social:hover {
     -webkit-transform: scale(1);
     transform: scale(1.2);
+}
+
+
+.modal{
+    backdrop-filter: blur(8px);
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+}
+
+.fundo_modal{
+    margin-top: 10px;
+    background-color: #2d033bb4;
+    width: 650px;
+    height: 410px;
+    border-radius: 20px;
+    z-index: 10000;
+    border: 2px solid #C00FFA;
+}
+
+.fechar{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-top: -25px;
+    margin-left: 20px;
+}
+
+.botao_fechar{
+    background-color: #A982C8;
+	border-radius:42px;
+    border: none;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+	font-size: 18px;
+	padding: 5px 10px;
+	text-decoration:none;
+    margin-top: 12px;
+}
+
+.conteudo_modal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:40px;
+    gap: 60px;
+}
+
+.texto{
+    text-align: center;
+    color: #3B2F57;
+    font-weight: 900;
+    margin-top: -10px;
+}
+
+.modal-p{
+    text-align: justify; 
+    color: #ffffff;
+}
+
+
+.button-retrofy {
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    background-color: #A982C8;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+
+}
+
+.button-retrofy:hover {
+    background-color: #D0ADDC;
+}
+
+span {
+    text-align: center;
+    color: white;
+}
+
+.conteudo_modal h1 {
+    font-family: 'Righteous';
+    font-size: 30px;
+    color: #D0ADDC;
+}
+
+
+.tecno {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }

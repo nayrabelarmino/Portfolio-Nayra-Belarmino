@@ -1,0 +1,92 @@
+
+.modal{
+    background-color: #e5cef1a1;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+}
+
+.fundo_modal{
+    margin-top: 10px;
+    background-color: #ffffff;
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+    z-index: 10000;
+}
+
+.fechar{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-top: -25px;
+    margin-left: 20px;
+}
+
+.botao_fechar{
+    background-color:#3B2F57;
+	border-radius:42px;
+    border: none;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+	font-size: 18px;
+	padding: 5px 10px;
+	text-decoration:none;
+    margin-top: 12px;
+}
+
+.conteudo_modal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:40px;
+    gap: 60px;
+}
+
+.texto{
+    text-align: center;
+    color: #3B2F57;
+    font-weight: 900;
+    margin-top: -10px;
+}
+
+p{
+    text-align: justify; 
+    color: #9b70ff;
+}
+
+
+.button-retrofy {
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    background-color: #9b70ff;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+
+}
+
+.button-retrofy:hover {
+    background-color: #3B2F57;
+}
+
+span {
+    text-align: center;
+}
+
+.tecno {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

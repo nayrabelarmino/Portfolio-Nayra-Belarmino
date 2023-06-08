@@ -9,18 +9,19 @@
     <title>NaySpace | Portfólio</title>
 </head>
 <body>
+  <div id="modais"></div>
     <section id="inicio">
         <div class="stars"></div>
         <div class="header" id="header">
           <div class="container">
             <div class="logo">
-              <img src="https://o.remove.bg/downloads/90c6763b-d14e-4a53-9aa9-705804ce963f/image-removebg-preview.png" alt="">
+              <img src="imgs/logo.png" alt="">
             </div>
             <ul class="navbar" id="navbar">
               <li class="agora"><a href="#inicio">Home</a></li>
               <li><a href="#aboutMe">About Me</a></li>
-              <li><a href="#artistas">Projects</a></li>
-              <li><a href="#desenvolvedora">Contact</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
           </div>
         </div>
@@ -46,7 +47,7 @@
                 </div>
             </div>
             <div class="text">
-                <h1>About me</h1>
+                <h1 class="titulo-projects">About me</h1>
                 <p> 
                     Hello, my name is Nayra, but you can call me Nay!
                     I am currently a student of Systems Analysis and Development
@@ -57,8 +58,40 @@
             </div>
         </div>
       </section>
-      <section>
-
+      <section id="projects">
+        <div class="stars"></div>
+        <div class="div-full">      
+          <h1 class="titulo-projects">Projects</h1>
+          <div class="div-projects"> 
+            <div class="projetos">
+              <button onclick="retrofy()" style="border: none; background-color: transparent;"><img src="imgs/projeto1.png" alt="" width="300px"></button>
+              <p>Clique para saber mais.</p>
+            </div>
+            <div class="projetos">
+              <button onclick="hoptech()" style="border: none; background-color: transparent;"><img src="imgs/projeto2.png" alt="" width="300px"></button>
+              <p>Clique para saber mais.</p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="stars"></div>
+        <div class="box-contatos">
+          <div><h1 class="contact-title">Contact-me</h1></div>
+            <div class="data">
+                <img src="imgs/astronauta.png" alt="" width="40px">
+                Email: nayrabelarmino08@gmail.com
+            </div>
+            <div class="data">
+                <img src="imgs/astronauta.png" alt="" width="40px">
+                Github: nayrabelarmino
+            </div>
+            <div class="data">
+              <img src="imgs/astronauta.png" alt="" width="40px">
+              Linkedin: nayra_belarmino
+            </div>
+        </div>
       </section>
       <footer>
         <img src="imgs/logo.png" alt="" width="150px">
@@ -74,4 +107,4 @@
       </footer>
 </body>
 </html>
-<script src="index.js"></script>    
+<script src="index.js"></script>
