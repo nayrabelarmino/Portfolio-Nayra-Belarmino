@@ -278,7 +278,6 @@ p {
     align-items: center;
     gap: 20px;
     width: 525px;
-    cursor: pointer;
 }
 
 .data:hover {
