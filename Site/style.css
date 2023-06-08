@@ -391,7 +391,7 @@ footer {
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
     cursor: pointer;
-
+    font-weight: 500;
 }
 
 .button-retrofy:hover {
