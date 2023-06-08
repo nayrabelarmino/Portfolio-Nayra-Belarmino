@@ -31,7 +31,7 @@ function retrofy() {
         </div>
     </div>
 </div>`
-}
+}   
 
 function hoptech() {
     modais.innerHTML = `<div class="modal">
